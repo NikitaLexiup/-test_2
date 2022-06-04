@@ -178,7 +178,7 @@ body {
 }
 
 .button_bio:hover {
-  background: url(/resume/img/BG.jpg) left no-repeat;
+  background: url(../img/BG.jpg) left no-repeat;
 }
 
 .my_photo {
