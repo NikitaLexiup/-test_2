@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav_color_button:hover {
   border-radius: 50px;
-  background: url(/resume/img/BG.jpg) left no-repeat;
+  background: url(../img/BG.jpg) left no-repeat;
 }
 
 ._hover_bg:hover {
