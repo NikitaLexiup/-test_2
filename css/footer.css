@@ -186,7 +186,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ._color_lg_tx {
+  text-align: center;
   color: #fff;
+  font-size: 10px;
   padding: 10px 5px;
   border-radius: 50px;
   max-width: 100%;

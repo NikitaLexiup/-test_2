@@ -95,7 +95,7 @@ body {
 }
 
 .header {
-  background: url(../img/BG.jpg) bottom no-repeat;
+  background: url("../img/BG.jpg") bottom no-repeat;
   height: 60px;
 }
 
@@ -116,7 +116,6 @@ body {
 }
 
 .title_project {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,23 +133,23 @@ body {
 }
 
 .funcional_project_container {
-  border: 1px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .lenguages_project_block {
-  border: 1px solid green;
-  width: 33.33%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .btn_link_code_git {
-  border: 1px solid green;
-  width: 33.33%;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,14 +181,13 @@ body {
 }
 
 .menu_responsive_block {
-  border: 1px solid green;
-  width: 33.33%;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -203,8 +201,31 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
+.desktop_view:hover {
+  background-color: rgb(194, 192, 190);
+}
+
+.tablet_view:hover {
+  background-color: rgb(194, 192, 190);
+}
+
+.phone_view:hover {
+  background-color: rgb(194, 192, 190);
+}
+
+.desktop_view:active {
+  background-color: rgb(194, 192, 190);
+}
+
+.tablet_view:active {
+  background-color: rgb(194, 192, 190);
+}
+
+.phone_view:active {
+  background-color: rgb(194, 192, 190);
+}
+
 ._visual_template_block_btn {
-  border: 1px solid rgb(0, 0, 0);
   width: 30px;
   height: 30px;
   display: -webkit-box;
@@ -223,11 +244,13 @@ body {
 }
 
 .content_project_block_desktop {
+  position: relative;
+  z-index: 1;
+  background: url("/img/dymni_desktop.png") 0 0/cover no-repeat;
   border-radius: 10px 10px 0 0;
   border: 5px solid rgb(179, 177, 177);
   width: 80%;
-  min-height: 400px;
-  background-color: rgb(211, 184, 184);
+  min-height: 480px;
   margin: 10px auto;
 }
 
@@ -287,7 +310,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid black;
   width: 80%;
   min-height: 50px;
   margin: 10px auto;
