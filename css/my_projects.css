@@ -244,8 +244,6 @@ body {
 }
 
 .content_project_block_desktop {
-  position: relative;
-  z-index: 1;
   background: url("/img/dymni_desktop.png") 0 0/cover no-repeat;
   border-radius: 10px 10px 0 0;
   border: 5px solid rgb(179, 177, 177);
