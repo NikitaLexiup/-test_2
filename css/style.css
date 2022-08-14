@@ -220,9 +220,6 @@ body {
 .social_block {
   margin: 0 0 0 10px;
 }
-.social_block span {
-  margin: 16px auto;
-}
 
 @media (max-width: 575px) {
   .links_block {
