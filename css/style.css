@@ -109,6 +109,7 @@ body {
 
 .page {
   max-width: 1240px;
+  height: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -121,7 +122,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto -50px auto;
+  margin: 0 auto;
 }
 
 .text_container {

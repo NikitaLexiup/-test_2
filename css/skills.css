@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0 0 0;
+  padding: 20px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   font-size: 18px;
   font-weight: 300;
-  padding: 15px 0 0 0;
+  padding: 15px 0;
 }
 .menu_header li:first-child {
   margin: 0 20px 0 0;
@@ -276,7 +276,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   width: 100%;
   margin: 0 auto;
-  padding: 0 0 20px 0;
 }
 .header_fixed .nav_color_button {
   color: rgb(0, 0, 0);
@@ -381,8 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -ms-flexbox;
   display: flex;
   max-width: 980px;
-  min-height: 10%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .tel_text {
@@ -421,7 +419,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 30px;
   display: block;
   color: #fff;
-  padding: 10px 5px;
   margin: 10px 5px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -470,6 +467,19 @@ h1, h2, h3, h4, h5, h6 {
   background: url(/img/BG.jpg) center no-repeat;
 }
 
+.languages_block_php {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(/img/BG.jpg) right no-repeat;
+}
+
 ._color_lg_tx {
   text-align: center;
   color: #fff;
@@ -483,8 +493,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .footer {
+    width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .languages_block {
@@ -557,11 +568,19 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto -50px auto;
+  margin: 0 auto;
 }
 
 ._hover_bg_1 {
   border: 1px solid #fff;
+}
+
+.tech_skills_block {
+  background-color: rgba(162, 162, 162, 0.318);
+  border-radius: 20px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 30px;
 }
 
 .side_bar_text {
