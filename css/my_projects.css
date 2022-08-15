@@ -121,6 +121,24 @@ body {
   margin: 15px;
 }
 
+.title_experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 30px;
+  margin: 20px 0 0 0;
+}
+
 .title_project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,11 +149,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100px;
   color: rgb(0, 0, 0);
-  font-size: 24px;
-  text-transform: uppercase;
-  margin: 20px 0;
+  font-size: 18px;
+  padding: 20px 0 10px 0;
 }
 
 .funcional_project_container {
@@ -371,7 +387,7 @@ body {
 }
 
 .style_btn_view_projekt_link {
-  border: 2px solid black;
+  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,7 +399,7 @@ body {
           align-items: center;
   max-width: 150px;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 .style_btn_view_projekt_link p {
   color: black;
@@ -402,47 +418,39 @@ body {
   display: flex;
   margin: 10px auto 10px auto;
   max-width: 75%;
+  line-height: 20px;
 }
 
 .container_block_description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: url(../img/BG.jpg) right no-repeat;
-  min-height: 10%;
-  min-width: 100%;
-}
-
-.footer_width_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 980px;
-  margin: 0 auto;
+  background-color: rgba(162, 162, 162, 0.318);
+  border-radius: 20px;
+  margin: 10px 10px 30px 10px;
+  padding: 20px;
 }
 
 .tel_text {
   color: #ffffff;
-  width: 25%;
+  width: 50%;
   text-align: center;
   margin: 20px 20px;
 }
 
 .tel_mailto {
   color: #ffffff;
-  width: 25%;
+  width: 50%;
   text-align: center;
   margin: 20px 20px;
 }
 
 .color_footer_text {
-  color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.color_footer_text:hover {
+  color: rgb(255, 170, 0);
 }
 
 .languages_block {
@@ -456,8 +464,9 @@ body {
 
 @media (max-width: 991px) {
   .footer {
+    width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .languages_block {
