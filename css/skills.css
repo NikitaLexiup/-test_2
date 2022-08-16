@@ -266,10 +266,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../img/BG.jpg) left no-repeat;
 }
 
-._hover_bg:hover {
-  width: 80px;
-}
-
 .header_fixed {
   max-height: 60px;
   padding: 20px 10px;
@@ -601,8 +597,8 @@ body {
   display: flex;
   text-align: center;
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 500;
   margin: 0 auto;
-  margin: 0 0 20px 20px;
+  margin: 0 0 15px 20px;
 }

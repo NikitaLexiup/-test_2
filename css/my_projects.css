@@ -109,6 +109,10 @@ body {
   color: rgb(255, 255, 255);
 }
 
+._hover_bg_1 {
+  border: 1px solid #fff;
+}
+
 .body_container {
   max-width: 1100px;
   margin: 0 auto;
