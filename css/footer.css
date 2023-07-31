@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .tel_text {
     width: 100%;
-    margin: 0 auto 10px auto;
+    margin: 10px auto 10px auto;
   }
 
   .tel_mailto {
@@ -253,10 +253,5 @@ h1, h2, h3, h4, h5, h6 {
   .languages_block {
     width: 90%;
     margin: 0 auto;
-  }
-   .footer {
-    width: 100%;
-    display: block;
-    margin: 30px auto;
   }
 }
