@@ -595,7 +595,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  //text-align: center;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
